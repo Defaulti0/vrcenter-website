@@ -8,12 +8,3 @@ module.exports = {
   },
   plugins: [],
 }
-
-
-/* 
-Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-*/
