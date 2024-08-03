@@ -1,5 +1,4 @@
-https://medium.com/@ryaddev/build-responsive-navbar-with-tailwind-css-and-react-icons-3b13a272dec4
-https://nerdcave.com/tailwind-cheat-sheet
-https://www.creative-tim.com/twcomponents/cheatsheet
-https://flowbite.com/tools/tailwind-cheat-sheet/
-http://localhost:3000/
+Use unprefixed utilities to target mobile, and override them at larger breakpoints
+
+<!-- This will center text on mobile, and left align it on screens 640px and wider -->
+<div class="text-center sm:text-left"></div>
