@@ -1,0 +1,5 @@
+https://medium.com/@ryaddev/build-responsive-navbar-with-tailwind-css-and-react-icons-3b13a272dec4
+https://nerdcave.com/tailwind-cheat-sheet
+https://www.creative-tim.com/twcomponents/cheatsheet
+https://flowbite.com/tools/tailwind-cheat-sheet/
+http://localhost:3000/
