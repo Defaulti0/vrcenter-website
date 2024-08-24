@@ -1,11 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Homepage from './pages/Homepage';
-import "./index.css";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Homepage from "./pages/Homepage.js";
+import "./css/index.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import { ThemeProvider } from "@material-tailwind/react";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
-    <Homepage />
+    <ThemeProvider>
+      <Homepage />
+    </ThemeProvider>
   </React.StrictMode>
 );

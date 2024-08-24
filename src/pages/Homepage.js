@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../pages/Navbar";
+import { StickyNavbar } from "../StickyNav";
 
 export default function Homepage() {
   return (
@@ -7,8 +7,8 @@ export default function Homepage() {
         goes in here, otherwise create a page.
     */
     <>
-      <div className="sticky top-0 text-center">
-        <Navbar />
+      <div>
+        <StickyNavbar />
       </div>
       <div className="main">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci
